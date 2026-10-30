@@ -1,0 +1,21 @@
+schema: spec-driven
+context: |
+  Chinese hospital digital twin dashboard.
+  React + TypeScript + Vite + Three.js + ECharts. Local development and public GitHub Pages.
+  User requires real rotatable models and OpenSpec + harness development.
+  Since 2026-10-12, user-provided 项目白模.dwg supplies connected tower/podium mesh 584.
+  A/B identify tower/podium zones of one building. Uniform calibration 69.5/205 retains shape;
+  measured bounds differ from summary dimensions and must not be asserted as surveyed BIM.
+  Project summary: tower 18 floors, podium approximately 6 floors, two schematic basements;
+  tower floors 13/14 retain original functions, basements are partially renovated.
+  No institution name was supplied; user explicitly requested omitting it.
+  Hospital facade finishes, entry/forecourt, city context, floor maps and operational data
+  remain illustrative. No live IoT/clinical endpoint or verified floor BIM is provided.
+  Source provenance is visible in the footer; original DWG/intermediate JSON stay local.
+  Harness means a reproducible Playwright acceptance loop, browser diagnostics and visual evidence.
+rules:
+  specs:
+    - Every requirement MUST have an observable scenario.
+    - Real rendered geometry and real pointer interactions are required.
+  tasks:
+    - Map implementation and verification tasks to acceptance requirements.

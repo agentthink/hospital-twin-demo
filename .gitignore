@@ -1,0 +1,14 @@
+node_modules/
+dist/
+test-results/
+test-results-production/
+playwright-report/
+.DS_Store
+artifacts/harness/results.json
+artifacts/harness/production-results.json
+harness/artifacts/
+artifacts/ci/
+artifacts/design/comparison-*.jpg
+.env
+.env.*
+*.local
